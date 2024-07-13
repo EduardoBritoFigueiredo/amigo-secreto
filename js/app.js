@@ -6,6 +6,19 @@ function adicionar() {
   campoNomeAmigo.value = ''
 }
 
+function sortear() {
+  embaralhar(amigos);
+  let sorteio = document.getElementById('lista-sorteio')
+
+  for(let i = 0; i < amigos.length; i++) {
+    if(i == amigos.length - 1) {
+      sorteio.innerHTML += amigos[i] + ' --> ' + amigos[0] + '<br>'
+    } else {
+      sorteio.innerHTML += amigos[i] + ' --> ' + amigos[i + 1] + '<br>'
+    }
+  }
+}
+
 function incluirAmigo(nomeAmigo) {
   amigos.push(nomeAmigo)
 
