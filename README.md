@@ -8,7 +8,7 @@ Desenvolvimento de um aplicativo web de amigo secreto online usando Javascritpt,
 
 ![snapshot do aplicativo](/assets/snapshot%20amigo-secreto.png)
 
-Acesse o aplicativo ![aqui][https://eduardobritofigueiredo.github.io/amigo-secreto] para ver como ficou.
+Acesse o aplicativo [aqui](https://eduardobritofigueiredo.github.io/amigo-secreto) para ver como ficou.
 
 ## TECHNOLOGIES
 
